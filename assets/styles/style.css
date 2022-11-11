@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  outline: 1px solid red;
+}
+
+/* Header */
+
+nav {
+  display: flex; 
+}
+
+.nav-h3 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.nav-icons i {
+  color: #737373;
+  font-size: 25px;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-end;
+  gap: 15px;
+}
