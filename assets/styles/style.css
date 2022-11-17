@@ -307,3 +307,84 @@ form {
 .testimonials-container4 {
   margin-top: 15px;
 }
+
+/* About */
+
+.about-container {
+  padding: 50px 15px;
+}
+
+.about-container1 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.about-container1 h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  color: #252B42;
+}
+
+.about-container1 p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #737373;
+  margin-top: -15px;
+}
+
+.about-container2 {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%), url("../images/video1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.about-container2 img {
+  margin: 50% 38%;
+  width: 28%;
+}
+
+.about-container3 {
+  padding: 50px 15px;
+}
+
+.about-container3 h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  color: #252B42;
+}
+
+.about-container3 p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #737373;
+}
+
+.about-container4 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.about-container4 img {
+  width: 25px;
+  height: 22px;
+  margin-top: 28px;
+}
+
+.about-container4 h5 {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+}
+
+.about-container4 h6 {
+  font-weight: 600;
+  font-size: 14px;
+  color: #737373;
+  margin-top: -25px;
+}
