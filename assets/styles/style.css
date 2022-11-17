@@ -94,14 +94,11 @@ nav {
   border-radius: 20px;
 }
 
-form {
+.form-container {
   background: #FFFFFF;
   max-width: 295px;
   margin: auto;
   border-radius: 5px;
-}
-
-.form-container {
   padding: 25px;
 }
 
@@ -114,8 +111,18 @@ form {
   color: #252B42;   
 }
 
-.form-container h6 {
+.form-h6s {
   font-weight: 600;
+  font-size: 14px;
+  color: #252B42;
+  margin-block-end: 5px;
+  margin-block-start: 10px;
+}
+
+.form-h6 {
+  font-weight: 600;
+  margin-block-end: 25px;
+  margin-block-start: 10px;
   font-size: 14px;
   color: #252B42;
 }
@@ -123,16 +130,21 @@ form {
 .form-container input {
   background-color: #F9F9F9;
   border: 1px solid #BDBDBD;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 24px;
   border-radius: 5px;
-  padding: 15px 15px;
-  margin-top: -15px;
+  padding: 15px 72px 15px 5px;
 }
 
 .form-container select {
   background-color: #F9F9F9;
   border: 1px solid #BDBDBD;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 24px;
   border-radius: 5px;
-  padding: 15px 90px 15px 15px;
+  padding: 18px 140px 18px 5px;
   color: gray;
   margin-top: -15px;
 }
@@ -508,4 +520,79 @@ form {
 .pricing-mtop h3,
 .pricing-color h6{
   color: white;
+}
+
+/* Contact */
+
+.contact-container img {
+  width: 100%;
+}
+
+.form-containers {
+  padding: 25px;
+  max-width: 395px;
+  margin: auto;
+  padding: 25px;
+}
+
+.form-containers h5 {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+}
+
+.form-containers h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  color: #252B42;
+  margin-top: -25px;
+}
+
+.form-containers input {
+  background-color: #F9F9F9;
+  border: 1px solid #BDBDBD;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 24px;
+  border: 1px solid #BDBDBD;
+  border-radius: 5px;
+  padding: 15px 82px 15px 5px;
+  margin-top: 20px;
+}
+
+.form-containers select {
+  background-color: #F9F9F9;
+  border: 1px solid #BDBDBD;
+  border-radius: 5px;
+  padding: 18px 150px 18px 5px;
+  color: gray;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.form-containers textarea {
+  margin-top: 20px;
+  background-color: #F9F9F9;
+  border: 1px solid #BDBDBD;
+  color: gray;
+  padding-left: 10px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.form-containers button {
+  margin-top: 30px;
+  background-color: #23A6F0;
+  border-radius: 5px;
+  border: 1px solid #BDBDBD;
+  padding: 15px 40px;
+  color: #FFFFFF;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: center;
 }
