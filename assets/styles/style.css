@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Montserrat';
+  font-family: Montserrat, sans-serif;
   outline: 1 solid red;
   font-style: normal;
   letter-spacing: 0.2px;
@@ -10,7 +10,7 @@
 /* Header */
 
 nav {
-  display: flex; 
+  display: flex;
 }
 
 .nav-h3 {
@@ -43,7 +43,7 @@ nav {
 .home-container {
   background-position: center;
   background-position-y: 85%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/hero-cover.png");
+  background-image: linear-gradient(rgb(0 0 0 50%), rgb(0 0 0 50%)), url("../images/hero-cover.png");
   background-size: cover;
   padding-bottom: 100px;
   min-height: 10px;
@@ -55,7 +55,7 @@ nav {
   font-size: 40px;
   line-height: 57px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .home-br1 {
@@ -63,7 +63,7 @@ nav {
 }
 
 .home-container h4 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
@@ -79,14 +79,14 @@ nav {
 }
 
 .home-btn1 {
-  background: #23A6F0;
+  background: 23a6f0;
   border-radius: 37px;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 22px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 10px 40px;
   border: none;
 
@@ -98,14 +98,14 @@ nav {
   font-size: 14px;
   line-height: 22px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   border: 1px solid white;
   padding: 10px 30px;
   border-radius: 20px;
 }
 
 .form-container {
-  background: #FFFFFF;
+  background: #ffffff;
   max-width: 295px;
   margin: auto;
   border-radius: 5px;
@@ -118,13 +118,13 @@ nav {
   line-height: 32px;
   text-align: center;
   letter-spacing: 0.1px;
-  color: #252B42;   
+  color: #252b42;
 }
 
 .form-h6s {
   font-weight: 600;
   font-size: 14px;
-  color: #252B42;
+  color: #252b42;
   margin-block-end: 5px;
   margin-block-start: 10px;
 }
@@ -134,12 +134,13 @@ nav {
   margin-block-end: 25px;
   margin-block-start: 10px;
   font-size: 14px;
-  color: #252B42;
+  color: #252b42;
+  display: none;
 }
 
 .form-container input {
-  background-color: #F9F9F9;
-  border: 1px solid #BDBDBD;
+  background-color: #f9f9f9;
+  border: 1px solid #bdbdbd;
   font-weight: 600;
   font-size: 13px;
   line-height: 24px;
@@ -148,8 +149,8 @@ nav {
 }
 
 .form-container select {
-  background-color: #F9F9F9;
-  border: 1px solid #BDBDBD;
+  background-color: #f9f9f9;
+  border: 1px solid #bdbdbd;
   font-weight: 600;
   font-size: 13px;
   line-height: 24px;
@@ -161,12 +162,12 @@ nav {
 
 .form-container button {
   margin-top: 30px;
-  background-color: #23A6F0;
+  background-color: 23a6f0;
   border-radius: 5px;
-  border: 1px solid #BDBDBD;
+  border: 1px solid #bdbdbd;
   padding: 15px 55px;
   width: 100%;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
   line-height: 22px;
   text-align: center;
@@ -192,7 +193,7 @@ nav {
   font-size: 40px;
   line-height: 57px;
   text-align: center;
-  color: #252B42;
+  color: #252b42;
 }
 
 .features-container p {
@@ -215,7 +216,7 @@ nav {
 .features-container1 {
   display: flex;
   gap: 10px;
-  background: #D9EDFF;
+  background: #d9edff;
   border-radius: 10px;
   padding: 20px 10px;
   justify-content: center;
@@ -226,17 +227,16 @@ nav {
 }
 
 .features-images {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 200px;
   width: 99px;
   height: 70px;
-
 }
 
 .features-img {
   width: 30px;
   height: 30px;
-  margin: 30%
+  margin: 30%;
 }
 
 .features-h5 {
@@ -247,14 +247,14 @@ nav {
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 0.1px;
-  color: #252B42;
+  color: #252b42;
   width: 100%;
   text-align: start;
 }
 
 .features-container3 {
-  background: #FFFFFF;
-  border: 1px solid #A9D6FF;
+  background: #ffffff;
+  border: 1px solid #a9d6ff;
   border-radius: 8px;
   margin-top: -15px;
   padding: 0 35px 25px;
@@ -272,7 +272,7 @@ nav {
 .features-container3 a {
   font-weight: 600;
   font-size: 14px;
-  color: #23A6F0;
+  color: 23a6f0;
   text-decoration: none;
 }
 
@@ -291,7 +291,7 @@ nav {
   font-size: 40px;
   line-height: 57px;
   text-align: center;
-  color: #252B42;
+  color: #252b42;
 }
 
 .testimonials-container p {
@@ -303,7 +303,7 @@ nav {
 }
 
 .testimonials-container2 {
-  border: 1px solid #DEDEDE;
+  border: 1px solid #dedede;
   border-radius: 5px;
   max-width: 298px;
   margin: auto;
@@ -327,13 +327,13 @@ nav {
   text-decoration: none;
   font-weight: 600;
   font-size: 14px;
-  color: #23A6F0;
+  color: 23a6f0;
 }
 
 .testimonials-container2 h6 {
   font-weight: 600;
   font-size: 14px;
-  color: #252B42;
+  color: #252b42;
   margin-top: 10px;
 }
 
@@ -360,7 +360,7 @@ nav {
   font-weight: 700;
   font-size: 40px;
   line-height: 57px;
-  color: #252B42;
+  color: #252b42;
 }
 
 .about-container1 p {
@@ -376,7 +376,7 @@ nav {
 }
 
 .about-container2 {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%), url("../images/video1.png");
+  background-image: linear-gradient(180deg, rgb(0 0 0 0%) 14.58%, rgb(56 56 56 84%) 100%), url("../images/video1.png");
   background-size: cover;
   background-position: center;
 }
@@ -399,7 +399,7 @@ nav {
   font-weight: 700;
   font-size: 40px;
   line-height: 57px;
-  color: #252B42;
+  color: #252b42;
 }
 
 .about-container3 p {
@@ -429,7 +429,7 @@ nav {
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 0.1px;
-  color: #252B42;
+  color: #252b42;
 }
 
 .about-container4 h6 {
@@ -442,7 +442,7 @@ nav {
 /* Pricing */
 
 .pricing-container {
-  background: #FAFAFA;
+  background: #fafafa;
   padding: 50px 15px;
 }
 
@@ -455,7 +455,7 @@ nav {
   font-weight: 400;
   font-size: 40px;
   line-height: 57px;
-  color: #252B42;
+  color: #252b42;
 }
 
 .pricing-container1 p {
@@ -473,7 +473,7 @@ nav {
   max-width: 298px;
   margin: auto;
   padding: 15px;
-  border: 1px solid #23A6F0;
+  border: 1px solid 23a6f0;
   border-radius: 10px;
 }
 
@@ -483,7 +483,7 @@ nav {
   line-height: 32px;
   text-align: center;
   letter-spacing: 0.1px;
-  color: #252B42;
+  color: #252b42;
 }
 
 .pricing-container2 h5 {
@@ -508,7 +508,7 @@ nav {
   margin-top: 5px;
   font-weight: 600;
   font-size: 14px;
-  color: #8EC2F2;
+  color: #8ec2f2;
 }
 
 .pricing-container4 {
@@ -521,7 +521,7 @@ nav {
   margin-block-start: 15px;
   font-weight: 600;
   font-size: 14px;
-  color: #252B42;
+  color: #252b42;
 }
 
 .pricing-container4 img {
@@ -536,16 +536,16 @@ nav {
   font-size: 14px;
   line-height: 22px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 15px 80px;
-  background: #23A6F0;
+  background: 23a6f0;
   border-radius: 5px;
   border: none;
 }
 
 .pricing-mtop {
   margin-top: 35px;
-  background: #252B42;
+  background: #252b42;
 }
 
 .pricing-mtop1 {
@@ -553,8 +553,8 @@ nav {
 }
 
 .pricing-mtop h5, 
-.pricing-mtop h3,
-.pricing-color h6{
+.pricing-mtop h3, 
+.pricing-color h6 {
   color: white;
 }
 
@@ -578,32 +578,31 @@ nav {
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 0.1px;
-  color: #252B42;
+  color: #252b42;
 }
 
 .form-h2s {
   font-weight: 700;
   font-size: 40px;
   line-height: 57px;
-  color: #252B42;
+  color: #252b42;
   margin-top: -25px;
 }
 
 .form-containers input {
-  background-color: #F9F9F9;
-  border: 1px solid #BDBDBD;
+  background-color: #f9f9f9;
+  border: 1px solid #bdbdbd;
   font-weight: 600;
   font-size: 13px;
   line-height: 24px;
-  border: 1px solid #BDBDBD;
   border-radius: 5px;
   padding: 15px 62px 15px 5px;
   margin-top: 20px;
 }
 
 .form-containers select {
-  background-color: #F9F9F9;
-  border: 1px solid #BDBDBD;
+  background-color: #f9f9f9;
+  border: 1px solid #bdbdbd;
   border-radius: 5px;
   padding: 18px 135px 18px 5px;
   color: gray;
@@ -615,8 +614,8 @@ nav {
 
 .form-containers textarea {
   margin-top: 20px;
-  background-color: #F9F9F9;
-  border: 1px solid #BDBDBD;
+  background-color: #f9f9f9;
+  border: 1px solid #bdbdbd;
   color: gray;
   padding-left: 10px;
   font-weight: 600;
@@ -626,12 +625,12 @@ nav {
 
 .form-containers button {
   margin-top: 30px;
-  background-color: #23A6F0;
+  background-color: 23a6f0;
   border-radius: 5px;
-  border: 1px solid #BDBDBD;
+  border: 1px solid #bdbdbd;
   text-align: center;
   padding: 15px 55px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
   line-height: 22px;
   width: 100%;
@@ -650,10 +649,6 @@ nav {
   display: none;
 }
 
-.form-h7 {
-  display: none;
-}
-
 /* Footer */
 
 .footer-container {
@@ -667,7 +662,7 @@ nav {
   font-size: 24px;
   line-height: 32px;
   letter-spacing: 0.1px;
-  color: #252B42;
+  color: #252b42;
 }
 
 .footer-container p {
@@ -698,7 +693,7 @@ nav {
 }
 
 .footer-h6 {
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .footer-h6 h6 {
@@ -713,10 +708,11 @@ nav {
 @media only screen and (min-width: 768px) {
   * {
     overflow-x: hidden;
+    line-height: initial;
   }
 
   .background-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/hero-cover5.jpg");
+    background-image: linear-gradient(rgb(0 0 0 50%), rgba(0 0 0 50%)), url("../images/hero-cover5.jpg");
     background-position: center top;
     background-repeat: no-repeat;
   }
@@ -729,7 +725,8 @@ nav {
   }
 
   .nav-h3 {
-    color: #FFFFFF;
+    color: #ffffff;
+    margin-top: -5px;
   }
 
   .nav-icons {
@@ -748,7 +745,7 @@ nav {
     font-weight: 600;
     font-size: 14px;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
     padding-right: 15px;
   }
 
@@ -757,7 +754,7 @@ nav {
     font-size: 14px;
     line-height: 22px;
     text-align: right;
-    color: #FFFFFF;
+    color: #ffffff;
     text-decoration: none;
   }
 
@@ -765,8 +762,8 @@ nav {
     font-weight: 700;
     font-size: 14px;
     line-height: 22px;
-    color: #FFFFFF;
-    background: #23A6F0;
+    color: #ffffff;
+    background: 23a6f0;
     border-radius: 5px;
     border: none;
     padding: 15px;
@@ -828,15 +825,15 @@ nav {
   }
 
   .features-container1 {
-    background: #8EC2F2;
+    background: #8ec2f2;
   }
 
   .features-container1 h5 {
     font-weight: 700;
     font-size: 16px;
     letter-spacing: 0.1px;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgb(0 0 0 25%);
     width: 100%;
     text-align: start;
   }
@@ -854,7 +851,7 @@ nav {
   }
 
   .features-img {
-   display: none;
+    display: none;
   }
 
   .testimonial-br {
@@ -921,7 +918,7 @@ nav {
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
-    color: #252B42;
+    color: #252b42;
   }
 
   .pricing-br {
@@ -940,6 +937,7 @@ nav {
   .pricing-container2 button {
     margin: 35px 0;
     padding: 15px 65px;
+    width: 100%;
   }
 
   .pricing-container2 {
@@ -947,7 +945,7 @@ nav {
     margin-left: 0;
     margin-right: 0;
     padding: 15px;
-    border: 1px solid #23A6F0;
+    border: 1px solid 23a6f0;
     border-radius: 10px;
   }
 
@@ -962,7 +960,7 @@ nav {
 
   .contact-bkg {
     display: initial;
-    background-color: #252B42;
+    background-color: #252b42;
   }
 
   .contact-container1 {
@@ -975,14 +973,14 @@ nav {
     font-weight: 700;
     font-size: 40px;
     line-height: 57px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
-  .contact-container1 p{
+  .contact-container1 p {
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   .contact-container2 {
@@ -997,7 +995,7 @@ nav {
     flex-direction: column;
     gap: 5px;
     max-width: 695px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
   }
 
   .form-br {
@@ -1022,13 +1020,13 @@ nav {
     font-size: 24px;
     line-height: 32px;
     text-align: center;
-    color: #252B42;
+    color: #252b42;
   }
 
   .contact-container1 h6 {
     font-weight: 600;
     font-size: 14px;
-    color: #252B42;
+    color: #252b42;
     margin-block-end: 25px;
     margin-block-start: 10px;
   }
@@ -1047,12 +1045,12 @@ nav {
 
   .form-containers button {
     margin-top: 30px;
-    background-color: #23A6F0;
+    background-color: 23a6f0;
     border-radius: 5px;
-    border: 1px solid #BDBDBD;
+    border: 1px solid #bdbdbd;
     text-align: center;
     padding: 15px 55px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-weight: 700;
     line-height: 22px;
     width: 100%;
