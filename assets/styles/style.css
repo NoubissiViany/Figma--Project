@@ -43,8 +43,7 @@ nav {
 .home-container {
   background-position: center;
   background-position-y: 85%;
-  background-image: linear-gradient(rgb(0 0 0 50%), rgb(0 0 0 50%)),
-    url('../images/hero-cover.png');
+  background-image: linear-gradient(rgb(0 0 0 50%), rgb(0 0 0 50%)), url("../images/hero-cover.png");
   background-size: cover;
   padding-bottom: 100px;
   min-height: 10px;
@@ -56,7 +55,7 @@ nav {
   font-size: 40px;
   line-height: 57px;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 }
 
 .home-br1 {
@@ -64,7 +63,7 @@ nav {
 }
 
 .home-container h4 {
-  color: #ffffff;
+  color: #fff;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
@@ -80,14 +79,14 @@ nav {
 }
 
 .home-btn1 {
-  background: 23a6f0;
+  background: #23a6f0;
   border-radius: 37px;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 22px;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   padding: 10px 40px;
   border: none;
 }
@@ -99,13 +98,13 @@ nav {
   line-height: 22px;
   text-align: center;
   color: #ffffff;
-  border: 1px solid white;
+  border: 1px solid #fff;
   padding: 10px 30px;
   border-radius: 20px;
 }
 
 .form-container {
-  background: #ffffff;
+  background: #fff;
   max-width: 295px;
   margin: auto;
   border-radius: 5px;
@@ -135,6 +134,7 @@ nav {
   margin-block-start: 10px;
   font-size: 14px;
   color: #252b42;
+  display: none;
 }
 
 .form-container input {
@@ -161,12 +161,12 @@ nav {
 
 .form-container button {
   margin-top: 30px;
-  background-color: 23a6f0;
+  background-color: #23a6f0;
   border-radius: 5px;
   border: 1px solid #bdbdbd;
   padding: 15px 55px;
   width: 100%;
-  color: #ffffff;
+  color: #fff;
   font-weight: 700;
   line-height: 22px;
   text-align: center;
@@ -226,7 +226,7 @@ nav {
 }
 
 .features-images {
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 200px;
   width: 99px;
   height: 70px;
@@ -252,7 +252,7 @@ nav {
 }
 
 .features-container3 {
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #a9d6ff;
   border-radius: 8px;
   margin-top: -15px;
@@ -271,7 +271,7 @@ nav {
 .features-container3 a {
   font-weight: 600;
   font-size: 14px;
-  color: 23a6f0;
+  color: #23a6f0;
   text-decoration: none;
 }
 
@@ -326,7 +326,7 @@ nav {
   text-decoration: none;
   font-weight: 600;
   font-size: 14px;
-  color: 23a6f0;
+  color: #23a6f0;
 }
 
 .testimonials-container2 h6 {
@@ -375,12 +375,7 @@ nav {
 }
 
 .about-container2 {
-  background-image: linear-gradient(
-      180deg,
-      rgb(0 0 0 0%) 14.58%,
-      rgb(56 56 56 84%) 100%
-    ),
-    url('../images/video1.png');
+  background-image: linear-gradient(180deg, rgb(0 0 0 0%) 14.58%, rgb(56 56 56 84%) 100%), url("../images/video1.png");
   background-size: cover;
   background-position: center;
 }
@@ -477,7 +472,7 @@ nav {
   max-width: 298px;
   margin: auto;
   padding: 15px;
-  border: 1px solid 23a6f0;
+  border: 1px solid #23a6f0;
   border-radius: 10px;
 }
 
@@ -540,9 +535,9 @@ nav {
   font-size: 14px;
   line-height: 22px;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   padding: 15px 80px;
-  background: 23a6f0;
+  background: #23a6f0;
   border-radius: 5px;
   border: none;
 }
@@ -599,7 +594,6 @@ nav {
   font-weight: 600;
   font-size: 13px;
   line-height: 24px;
-  border: 1px solid #bdbdbd;
   border-radius: 5px;
   padding: 15px 62px 15px 5px;
   margin-top: 20px;
@@ -630,12 +624,12 @@ nav {
 
 .form-containers button {
   margin-top: 30px;
-  background-color: 23a6f0;
+  background-color: #23a6f0;
   border-radius: 5px;
   border: 1px solid #bdbdbd;
   text-align: center;
   padding: 15px 55px;
-  color: #ffffff;
+  color: #fff;
   font-weight: 700;
   line-height: 22px;
   width: 100%;
@@ -651,10 +645,6 @@ nav {
 }
 
 .contact-img1 {
-  display: none;
-}
-
-.form-h7 {
   display: none;
 }
 
@@ -721,8 +711,7 @@ nav {
   }
 
   .background-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url('../images/hero-cover5.jpg');
+    background-image: linear-gradient(rgb(0 0 0 50%), rgba(0 0 0 50%)), url("../images/hero-cover5.jpg");
     background-position: center top;
     background-repeat: no-repeat;
   }
@@ -735,7 +724,7 @@ nav {
   }
 
   .nav-h3 {
-    color: #ffffff;
+    color: #fff;
     margin-top: -5px;
   }
 
@@ -755,7 +744,7 @@ nav {
     font-weight: 600;
     font-size: 14px;
     text-align: center;
-    color: #ffffff;
+    color: #fff;
     padding-right: 15px;
   }
 
@@ -764,7 +753,7 @@ nav {
     font-size: 14px;
     line-height: 22px;
     text-align: right;
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
   }
 
@@ -772,8 +761,8 @@ nav {
     font-weight: 700;
     font-size: 14px;
     line-height: 22px;
-    color: #ffffff;
-    background: 23a6f0;
+    color: #fff;
+    background: #23a6f0;
     border-radius: 5px;
     border: none;
     padding: 15px;
@@ -841,8 +830,8 @@ nav {
     font-weight: 700;
     font-size: 16px;
     letter-spacing: 0.1px;
-    color: #ffffff;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    text-shadow: 0px 4px 4px rgb(0 0 0 25%);
     width: 100%;
     text-align: start;
   }
@@ -954,7 +943,7 @@ nav {
     margin-left: 0;
     margin-right: 0;
     padding: 15px;
-    border: 1px solid 23a6f0;
+    border: 1px solid #23a6f0;
     border-radius: 10px;
   }
 
@@ -982,14 +971,14 @@ nav {
     font-weight: 700;
     font-size: 40px;
     line-height: 57px;
-    color: #ffffff;
+    color: #fff;
   }
 
   .contact-container1 p {
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
-    color: #ffffff;
+    color: #fff;
   }
 
   .contact-container2 {
@@ -1004,7 +993,7 @@ nav {
     flex-direction: column;
     gap: 5px;
     max-width: 695px;
-    background-color: #ffffff;
+    background-color: #fff;
   }
 
   .form-br {
@@ -1054,12 +1043,12 @@ nav {
 
   .form-containers button {
     margin-top: 30px;
-    background-color: 23a6f0;
+    background-color: #23a6f0;
     border-radius: 5px;
     border: 1px solid #bdbdbd;
     text-align: center;
     padding: 15px 55px;
-    color: #ffffff;
+    color: #fff;
     font-weight: 700;
     line-height: 22px;
     width: 100%;
