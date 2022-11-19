@@ -135,7 +135,6 @@ nav {
   margin-block-start: 10px;
   font-size: 14px;
   color: #252b42;
-  display: none;
 }
 
 .form-container input {
@@ -442,7 +441,7 @@ nav {
 /* Pricing */
 
 .pricing-container {
-  background: #fafafa;
+  background: #FAFAFA;
   padding: 50px 15px;
 }
 
@@ -508,7 +507,7 @@ nav {
   margin-top: 5px;
   font-weight: 600;
   font-size: 14px;
-  color: #8ec2f2;
+  color: #8EC2F2;
 }
 
 .pricing-container4 {
@@ -553,8 +552,8 @@ nav {
 }
 
 .pricing-mtop h5, 
-.pricing-mtop h3, 
-.pricing-color h6 {
+.pricing-mtop h3,
+.pricing-color h6{
   color: white;
 }
 
@@ -595,6 +594,7 @@ nav {
   font-weight: 600;
   font-size: 13px;
   line-height: 24px;
+  border: 1px solid #bdbdbd;
   border-radius: 5px;
   padding: 15px 62px 15px 5px;
   margin-top: 20px;
@@ -649,6 +649,10 @@ nav {
   display: none;
 }
 
+.form-h7 {
+  display: none;
+}
+
 /* Footer */
 
 .footer-container {
@@ -693,7 +697,7 @@ nav {
 }
 
 .footer-h6 {
-  background-color: #fafafa;
+  background-color: #FAFAFA;
 }
 
 .footer-h6 h6 {
@@ -712,7 +716,7 @@ nav {
   }
 
   .background-img {
-    background-image: linear-gradient(rgb(0 0 0 50%), rgba(0 0 0 50%)), url("../images/hero-cover5.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/hero-cover5.jpg");
     background-position: center top;
     background-repeat: no-repeat;
   }
@@ -825,7 +829,7 @@ nav {
   }
 
   .features-container1 {
-    background: #8ec2f2;
+    background: #8EC2F2;
   }
 
   .features-container1 h5 {
@@ -833,7 +837,7 @@ nav {
     font-size: 16px;
     letter-spacing: 0.1px;
     color: #ffffff;
-    text-shadow: 0px 4px 4px rgb(0 0 0 25%);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     width: 100%;
     text-align: start;
   }
@@ -851,7 +855,7 @@ nav {
   }
 
   .features-img {
-    display: none;
+   display: none;
   }
 
   .testimonial-br {
@@ -976,7 +980,7 @@ nav {
     color: #ffffff;
   }
 
-  .contact-container1 p {
+  .contact-container1 p{
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
