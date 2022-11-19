@@ -43,7 +43,8 @@ nav {
 .home-container {
   background-position: center;
   background-position-y: 85%;
-  background-image: linear-gradient(rgb(0 0 0 50%), rgb(0 0 0 50%)), url("../images/hero-cover.png");
+  background-image: linear-gradient(rgb(0 0 0 50%), rgb(0 0 0 50%)),
+    url('../images/hero-cover.png');
   background-size: cover;
   padding-bottom: 100px;
   min-height: 10px;
@@ -89,7 +90,6 @@ nav {
   color: #ffffff;
   padding: 10px 40px;
   border: none;
-
 }
 
 .home-p {
@@ -375,7 +375,12 @@ nav {
 }
 
 .about-container2 {
-  background-image: linear-gradient(180deg, rgb(0 0 0 0%) 14.58%, rgb(56 56 56 84%) 100%), url("../images/video1.png");
+  background-image: linear-gradient(
+      180deg,
+      rgb(0 0 0 0%) 14.58%,
+      rgb(56 56 56 84%) 100%
+    ),
+    url('../images/video1.png');
   background-size: cover;
   background-position: center;
 }
@@ -441,7 +446,7 @@ nav {
 /* Pricing */
 
 .pricing-container {
-  background: #FAFAFA;
+  background: #fafafa;
   padding: 50px 15px;
 }
 
@@ -507,7 +512,7 @@ nav {
   margin-top: 5px;
   font-weight: 600;
   font-size: 14px;
-  color: #8EC2F2;
+  color: #8ec2f2;
 }
 
 .pricing-container4 {
@@ -551,9 +556,9 @@ nav {
   margin-top: 35px;
 }
 
-.pricing-mtop h5, 
+.pricing-mtop h5,
 .pricing-mtop h3,
-.pricing-color h6{
+.pricing-color h6 {
   color: white;
 }
 
@@ -697,7 +702,7 @@ nav {
 }
 
 .footer-h6 {
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .footer-h6 h6 {
@@ -716,7 +721,8 @@ nav {
   }
 
   .background-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/hero-cover5.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('../images/hero-cover5.jpg');
     background-position: center top;
     background-repeat: no-repeat;
   }
@@ -724,7 +730,7 @@ nav {
   nav {
     display: grid;
     max-width: 1000px;
-    margin: auto; 
+    margin: auto;
     grid-template-columns: auto auto auto 210px;
   }
 
@@ -825,11 +831,10 @@ nav {
     gap: 15px;
     max-width: 995px;
     margin: auto;
-
   }
 
   .features-container1 {
-    background: #8EC2F2;
+    background: #8ec2f2;
   }
 
   .features-container1 h5 {
@@ -855,7 +860,7 @@ nav {
   }
 
   .features-img {
-   display: none;
+    display: none;
   }
 
   .testimonial-br {
@@ -980,7 +985,7 @@ nav {
     color: #ffffff;
   }
 
-  .contact-container1 p{
+  .contact-container1 p {
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
