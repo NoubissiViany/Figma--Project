@@ -550,6 +550,7 @@ nav {
   background: #23a6f0;
   border-radius: 5px;
   border: none;
+  width: 100%;
 }
 
 .pricing-mtop {
