@@ -43,7 +43,7 @@ nav {
 .home-container {
   background-position: center;
   background-position-y: 85%;
-  background-image: linear-gradient(rgb(0 0 0 50%), rgb(0 0 0 50%)), url("../images/hero-cover.png");
+  background-image: linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 50%)), url("../images/hero-cover.png");
   background-size: cover;
   padding-bottom: 100px;
   min-height: 10px;
@@ -227,6 +227,7 @@ nav {
   border-radius: 10px;
   padding: 20px 10px;
   justify-content: center;
+  width: 100%;
 }
 
 .features-img1 {
@@ -265,6 +266,7 @@ nav {
   border-radius: 8px;
   margin-top: -15px;
   padding: 0 35px 25px;
+  width: 100%;
 }
 
 .features-container3 h6 {
@@ -383,7 +385,7 @@ nav {
 }
 
 .about-container2 {
-  background-image: linear-gradient(180deg, rgb(0 0 0 0%) 14.58%, rgb(56 56 56 84%) 100%), url("../images/video1.png");
+  background-image: linear-gradient(180deg, rgb(0 0 0 / 0%) 14.58%, rgb(56 56 56 / 84%) 100%), url("../images/video1.png");
   background-size: cover;
   background-position: center;
 }
@@ -825,6 +827,7 @@ nav {
   .features-container5 {
     display: flex;
     justify-content: center;
+    flex-wrap: nowrap;
     gap: 15px;
     max-width: 995px;
     margin: auto;
@@ -871,6 +874,7 @@ nav {
   .testimonials-container5 {
     display: flex;
     justify-content: center;
+    gap: 10px;
     max-width: 995px;
     margin: auto;
   }
@@ -1004,6 +1008,11 @@ nav {
     background-color: #fff;
   }
 
+  .form-containers1 {
+    max-width: 395px;
+    margin: auto;
+  }
+
   .form-br {
     display: initial;
   }
@@ -1040,13 +1049,13 @@ nav {
   .form-containers input {
     margin-top: 0;
     margin-bottom: 15px;
-    padding: 18px 310px 18px 5px;
+    padding: 18px 200px 18px 5px;
   }
 
   .form-containers select {
     margin-top: 0;
     margin-bottom: 15px;
-    padding: 18px 380px 18px 5px;
+    padding: 18px 270px 18px 5px;
   }
 
   .form-containers button {
