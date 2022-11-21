@@ -5,7 +5,7 @@ this project is all about International Network.
 ## App
 
 ![Home](assets/images/home.png)
-![about-Wedding](assets/images/about.png)
+![about](assets/images/about.png)
 
 ### Built With
 
