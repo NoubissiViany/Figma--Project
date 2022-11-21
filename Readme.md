@@ -1,4 +1,4 @@
-# Food project
+# Figma project
 
 this project is all about online invitation.
 
