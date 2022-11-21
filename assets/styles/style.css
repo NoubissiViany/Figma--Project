@@ -120,6 +120,14 @@ nav {
   color: #252b42;
 }
 
+.form-h6 {
+  font-weight: 600;
+  font-size: 14px;
+  color: #252b42;
+  margin-block-end: 20px;
+  margin-block-start: 10px;
+}
+
 .form-h6s {
   font-weight: 600;
   font-size: 14px;
